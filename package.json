@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Nitro-Bolt/packs#readme",
   "dependencies": {
-    "preact": "^10.28.4"
+    "preact": "^10.29.8"
   },
   "devDependencies": {
     "@rspack/cli": "^1.7.7",
