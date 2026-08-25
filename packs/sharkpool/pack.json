@@ -1,0 +1,945 @@
+{
+  "information": {
+    "name": "SharkPool's Extensions",
+    "tag": "sharkpool",
+    "source": "https://sharkpools-extensions.vercel.app/"
+  },
+  "extensions": [
+    {
+      "slug": "extension-code/Sharktilities.js",
+      "id": "SharkPoolSharktilities",
+      "name": "Sharktilities",
+      "description": "Various utility blocks for various operations",
+      "image": "extension-thumbs/Sharktilities.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/YouTube-Operations.js",
+      "id": "SPyoutubeoperations",
+      "name": "YouTube Operations",
+      "description": "Fetch and play Youtube videos and statistics in your Project",
+      "image": "extension-thumbs/YouTube-Operations.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "Nekl300 (contributor)"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Scratch-Utilities.js",
+      "id": "SPscratchUtilities",
+      "name": "Scratch Utilities",
+      "description": "Blocks for fetching Scratch statistics and assets, inspired by NexusKitten's S-Grab",
+      "image": "extension-thumbs/Scratch-Utilities.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Tune-Shark-V3.js",
+      "id": "SPtuneShark3",
+      "name": "Tune Shark V3",
+      "description": "Advanced Audio Engine with complex Sound Control, Audio Effects and more",
+      "image": "extension-thumbs/Tune-Shark-V3.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Tune-Shark.js",
+      "id": "SPtuneShark",
+      "name": "Tune Shark",
+      "description": "Outdated Sound Engine for playing sounds. Please use Tune Shark V3",
+      "image": "extension-thumbs/Tune-Shark.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Camera.js",
+      "id": "SPcamera",
+      "name": "Camera",
+      "description": "Use Cameras to move the visible part of the Stage",
+      "image": "extension-thumbs/Camera.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Added-Motion.js",
+      "id": "SPaddedmotion",
+      "name": "Added Motion",
+      "description": "New Motion Blocks",
+      "image": "extension-thumbs/Added-Motion.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Geometry-Dash-API.js",
+      "id": "GDapiSP",
+      "name": "Geometry Dash API",
+      "description": "Fetch statistics and information from Geometry Dash. Deprecated, expect incorrect values.",
+      "image": "extension-thumbs/Geometry-Dash-API.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "thank you RobTopGames and GD Colon"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Sound-Waves.js",
+      "id": "SPsoundWaves",
+      "name": "Sound Waves",
+      "description": "Play various Oscillators in your Project",
+      "image": "extension-thumbs/Sound-Waves.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Hyper-Sense-V2.js",
+      "id": "HyperSense2SP",
+      "name": "Hyper Sense",
+      "description": "New Sensing Blocks",
+      "image": "extension-thumbs/Hyper-Sense.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/KeysPlusV2.js",
+      "id": "enderKeysPlusV2",
+      "name": "Keys Plus V2",
+      "description": "Powerful and flexible Key detection Blocks with some additional features (No longer maintained)",
+      "image": "extension-thumbs/Keys-Plus-V2.svg",
+      "by": [
+        {
+          "name": "StackOverflow"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Popup-Phoenix.js",
+      "id": "SPpopups",
+      "name": "Popup Phoenix",
+      "description": "Create and design custom Popups! A remaster of 'Better Input'",
+      "image": "extension-thumbs/Popup-Phoenix.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Better-Input.js",
+      "id": "BetterInputSP",
+      "name": "Better Input",
+      "description": "Expansion of the 'Ask and Wait' Block. Deprecated, please use Popup-Phoenix",
+      "image": "extension-thumbs/Better-Input.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Camera-Sensing-Plus.js",
+      "id": "CameraSensingPlusSP",
+      "name": "Camera Sensing Plus",
+      "description": "Expansion of the 'Video Sensing' extension. Display the Camera on Sprites and take Photos",
+      "image": "extension-thumbs/Camera-Sensing-Plus.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Particle-Engine.js",
+      "id": "SPpartEngine",
+      "name": "Particle Engine",
+      "description": "Create customizable and powerful Particle Engines with NO Clones",
+      "image": "extension-thumbs/Particle-Engine.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Particle-Tools.js",
+      "id": "ParticleToolsSP",
+      "name": "Particle Tools",
+      "description": "Tools that make creating Particle Systems easy",
+      "image": "extension-thumbs/Particle-Tools.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Looks-Expanded.js",
+      "id": "SPlooksExpanded",
+      "name": "Looks Expanded",
+      "description": "Expansion of the Looks Category",
+      "image": "extension-thumbs/Looks-Expanded.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "CST1229"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Sprite-Effects-V2.js",
+      "id": "SPspriteEffectsV2",
+      "name": "Sprite Effects",
+      "description": "Apply SVG Filters to Images, Sprites, and the Canvas! Faster than Image Effects",
+      "image": "extension-thumbs/Sprite-Effects.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Image-Effects.js",
+      "id": "imgEffectsSP",
+      "name": "Image Effects",
+      "description": "Apply a variety of visual effects to Images",
+      "image": "extension-thumbs/Image-Effects.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Image-Editor.js",
+      "id": "SPimgEditor",
+      "name": "Image Editor",
+      "description": "Create and modify images and their pixel data",
+      "image": "extension-thumbs/Image-Editor.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Pixel-Utilities.js",
+      "id": "lbgpixelutilities",
+      "name": "Pixel Utilities",
+      "description": "Some Utility Blocks that Roltycore 2's Developer made for some reason",
+      "image": "extension-thumbs/Pixel-Utilities.svg",
+      "by": [
+        {
+          "name": "LittleBlueGamer"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Recording-V2.js",
+      "id": "SPrecording2",
+      "name": "Recording",
+      "description": "Blocks for Recording your Microphone while your Project runs",
+      "image": "extension-thumbs/Recording.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Newgrounds-Audio.js",
+      "id": "SPaudioNG",
+      "name": "Newgrounds Audio",
+      "description": "Fetch audio and statistics from Newgrounds. Works best with Tune Shark V3",
+      "image": "extension-thumbs/Newgrounds-Audio.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Sprite-Parenting.js",
+      "id": "SPspriteParent",
+      "name": "Sprite Parenting",
+      "description": "Link Sprites together and make them follow their parent's movement",
+      "image": "extension-thumbs/Sprite-Parenting.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Rigidbodies.js",
+      "id": "SPrigidBody",
+      "name": "Rigidbodies",
+      "description": "Fast, math-based Collision detections using Rigidbodies",
+      "image": "extension-thumbs/Rigidbodies.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Lazy-Collisions.js",
+      "id": "LZcollisionsSP",
+      "name": "Lazy Collisions",
+      "description": "Utility Blocks that make detecting box Collisions easy and fast",
+      "image": "extension-thumbs/Lazy-Collisions.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "Food (contributor)"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Files-Expanded.js",
+      "id": "filesExpanded",
+      "name": "Files Expanded",
+      "description": "Expansion of GarboMuffin's File Extension",
+      "image": "extension-thumbs/Files-Expanded.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "Drago Cuven"
+        },
+        {
+          "name": "0znzw"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Temporary-Variables.js",
+      "id": "SPtempVars",
+      "name": "Temporary Variables",
+      "description": "Create Temporary Variables for Sprites, Threads, and the Project",
+      "image": "extension-thumbs/Temporary-Variables.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Variables-Expanded.js",
+      "id": "DICandSPmonitorsPlus",
+      "name": "Variables Expanded",
+      "description": "New Variable Blocks and new Variable Monitors",
+      "image": "extension-thumbs/Variables-Expanded.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "DogeIsCut"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Sty-Lists.js",
+      "id": "SPlistMonitors",
+      "name": "Sty Lists",
+      "description": "Customize and Organize List Monitors",
+      "image": "extension-thumbs/Sty-Lists.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Gamepad-Expanded.js",
+      "id": "Gamepad",
+      "name": "Gamepad Expanded",
+      "description": "Expansion of Garbomuffin's Gamepad Extension",
+      "image": "extension-thumbs/Gamepad-Expanded.svg",
+      "by": [
+        {
+          "name": "DNin01"
+        },
+        {
+          "name": "Meehdrescher"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Tile-Grids.js",
+      "id": "SPgrids",
+      "name": "Tile Grids",
+      "description": "Position Sprites on Tile Grids",
+      "image": "extension-thumbs/Tile-Grids.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Animations.js",
+      "id": "SPanimations",
+      "name": "Animations",
+      "description": "Create Animations and Keyframes in your Project",
+      "image": "extension-thumbs/Animations.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Text-to-Speech-V2.js",
+      "id": "SPttsV2",
+      "name": "Text to Speech V2",
+      "description": "Generate speech using popular Text-to-Speech models",
+      "image": "extension-thumbs/Text-to-Speech.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Font-Manager.js",
+      "id": "SPASfontManager",
+      "name": "Font Manager",
+      "description": "Manage, Create, and Delete Fonts from your Project",
+      "image": "extension-thumbs/Font-Manager.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "0znzw"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Pause.js",
+      "id": "SPpauseV2",
+      "name": "Pause",
+      "description": "Pause your Project, Scripts, and Sprites",
+      "image": "extension-thumbs/Pause-Utilities.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Script-Control.js",
+      "id": "SPscripts",
+      "name": "Script Control",
+      "description": "Monitor and Control specific Scripts in your Project, inspired by 0znzw",
+      "image": "extension-thumbs/Script-Control.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Messages-Plus.js",
+      "id": "SPmessagePlus",
+      "name": "Messages Plus",
+      "description": "Powerful Message Blocks that work with Vanilla Broadcasts",
+      "image": "extension-thumbs/Messages-Plus.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Advanced-Messages.js",
+      "id": "SPmessages",
+      "name": "Advanced Messages",
+      "description": "New Message Blocks for Advanced, Non-Vanilla Purposes",
+      "image": "extension-thumbs/Advanced-Messages.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Events-Plus.js",
+      "id": "SPeventsPlus",
+      "name": "Events Plus",
+      "description": "New Event Blocks",
+      "image": "extension-thumbs/Events-Plus.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Runtime-Events.js",
+      "id": "SPevents",
+      "name": "Runtime Events",
+      "description": "Detect Events from Runtime",
+      "image": "extension-thumbs/Runtime-Events.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Fetch-Progress.js",
+      "id": "SPprogress",
+      "name": "Fetch Plus",
+      "description": "Fetch and Encode Content from URLs while viewing the Progress and Status of the Fetch",
+      "image": "extension-thumbs/Fetch-Plus.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Geolocation.js",
+      "id": "SPgeolocation",
+      "name": "Geolocation",
+      "description": "Get users' Location and calculate Real-World Distances",
+      "image": "extension-thumbs/Geolocation.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Spotify.js",
+      "id": "SPspotify",
+      "name": "Spotify",
+      "description": "Fetch statistics, information, and play songs from Spotify",
+      "image": "extension-thumbs/Spotify.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/SoundCloud-API.js",
+      "id": "SPsoundCloud",
+      "name": "SoundCloud API",
+      "description": "Fetch tracks, artists, and statistics from Soundcloud",
+      "image": "extension-thumbs/SoundCloud-API.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Google-Spreadsheets.js",
+      "id": "SPspreads",
+      "name": "Google Spreadsheets",
+      "description": "Read and Write Google Spreadsheets",
+      "image": "extension-thumbs/Google-Spreadsheets.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Money-Utilities.js",
+      "id": "SPmoney",
+      "name": "Money Utilities",
+      "description": "Convert Currencies and get Currency Information",
+      "image": "extension-thumbs/Money-Utilities.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Display-Text-V2.js",
+      "id": "SPdisplayTextV2",
+      "name": "Display Text",
+      "description": "Display Text in your Projects, with Markdown Support",
+      "image": "extension-thumbs/Display-Text.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Color-Master.js",
+      "id": "SPcolorMaster",
+      "name": "Color Master",
+      "description": "Color Utility and Conversion Blocks",
+      "image": "extension-thumbs/Color-Master.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/QR-Codes.js",
+      "id": "SPqrCodes",
+      "name": "QR Codes",
+      "description": "Create and Read QR Codes on the Client",
+      "image": "extension-thumbs/QR-Codes.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Speech-Bubbles.js",
+      "id": "speechSP",
+      "name": "Speech Bubbles",
+      "description": "Customizable Speech Bubbles",
+      "image": "extension-thumbs/Speech-Bubbles.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Layer-Control.js",
+      "id": "SPlayering",
+      "name": "Layer Control",
+      "description": "Relayer Pen, Video Camera, Backdrops, Sprites and more",
+      "image": "extension-thumbs/Layer-Control.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Renderer-Control.js",
+      "id": "SPrenderControl",
+      "name": "Renderer Control",
+      "description": "Control the visuals of Pen, Video Camera, Backdrops, Sprites and more",
+      "image": "extension-thumbs/Renderer-Control.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Time-Calculation.js",
+      "id": "SPtimeCalc",
+      "name": "Time Calculation",
+      "description": "Blocks for calculating Time differences",
+      "image": "extension-thumbs/Time-Calculation.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Timezones.js",
+      "id": "iStimezones",
+      "name": "Timezones",
+      "description": "Convert and get the Time in different Timezones",
+      "image": "extension-thumbs/Timezones.svg",
+      "by": [
+        {
+          "name": "Ammunimium"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Since-2000.js",
+      "id": "since2000",
+      "name": "Since 2000",
+      "description": "Expansion of the 'since 2000' Blocks",
+      "image": "extension-thumbs/Since-2000.svg",
+      "by": [
+        {
+          "name": "Ammunimium"
+        },
+        {
+          "name": "0znzw"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Seeds.js",
+      "id": "SeedsSP",
+      "name": "Seeds",
+      "description": "Generate random seeded numbers, generated terrain, and more",
+      "image": "extension-thumbs/Seeds.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Perlin-Noise.js",
+      "id": "SPperlin",
+      "name": "Perlin Noise",
+      "description": "Generate randomized Perlin Noise",
+      "image": "extension-thumbs/Perlin-Noise.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Extra-Controls.js",
+      "id": "SPadvControl",
+      "name": "Extra Controls",
+      "description": "New Advanced Control Blocks",
+      "image": "extension-thumbs/Extra-Controls.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/More-Operators.js",
+      "id": "SPmoreOPs",
+      "name": "More Operators",
+      "description": "New Powerful Operator Blocks",
+      "image": "extension-thumbs/More-Operators.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Captchas.js",
+      "id": "SPcaptcha",
+      "name": "Captchas",
+      "description": "Simple Client-Based Captchas, this does not promise 100% security",
+      "image": "extension-thumbs/Captchas.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Better-Comments.js",
+      "id": "SPcomments",
+      "name": "Better Comments",
+      "description": "Better Comments with Color and Text Customization",
+      "image": "extension-thumbs/Better-Comments.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Sprite-Panel.js",
+      "id": "SPspritePanel",
+      "name": "Sprite Panel",
+      "description": "Addon for viewing and managing Sprites and Clones",
+      "image": "extension-thumbs/Sprite-Panel.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "FurryR"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/DOM-Selector.js",
+      "id": "SPdomSelect",
+      "name": "DOM Selector",
+      "description": "Read Elements and Create Events from the website HTML",
+      "image": "extension-thumbs/DOM-Selector.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/SVG-Spritesheets.js",
+      "id": "SPsvgSheets",
+      "name": "SVG Spritesheets",
+      "description": "Create and Export SVG Spritesheets",
+      "image": "extension-thumbs/SVG-Spritesheets.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Community-Spotlight.js",
+      "id": "SPspotlight",
+      "name": "Community Spotlight",
+      "description": "Display and Promote Projects for free",
+      "image": "extension-thumbs/Community-Spotlight.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "Community Spotlight Team"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/GIF-Manager.js",
+      "id": "SPgifManager",
+      "name": "GIF Manager",
+      "description": "Create and Split GIF Frames",
+      "image": "extension-thumbs/GIF-Manager.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/JSON-Array.js",
+      "id": "SPjson",
+      "name": "Swift JSON",
+      "description": "Super Fast JSON and Array extension",
+      "image": "extension-thumbs/JSON-Array.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/My-Blocks-Plus.js",
+      "id": "SPmbpCST",
+      "name": "My Blocks Plus",
+      "description": "Better Custom Blocks",
+      "image": "extension-thumbs/My-Blocks-Plus.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "CST1229"
+        },
+        {
+          "name": "0znzw"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Dropdown-Maker.js",
+      "id": "SP0zMenuMaker",
+      "name": "Dropdown Maker",
+      "description": "Create Custom Dropdowns! Best paired with My Blocks+",
+      "image": "extension-thumbs/Dropdown-Maker.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "CST1229"
+        },
+        {
+          "name": "0znzw"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Turbo-Skins.js",
+      "id": "SPturboSkins",
+      "name": "Turbo Skins",
+      "description": "Improved Skins extension, inspired by LilyMakesThings",
+      "image": "extension-thumbs/Turbo-Skins.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Scenes.js",
+      "id": "SPscenes",
+      "name": "Scenes",
+      "description": "Create Scenes (savestates), like Unity, in your Project",
+      "image": "extension-thumbs/Scenes.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/Pen-Papers.js",
+      "id": "SPpenPapers",
+      "name": "Pen Papers",
+      "description": "Create Multiple Pen Layers! Inspired by ObviousAlex",
+      "image": "extension-thumbs/Pen-Papers.svg",
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "slug": "extension-code/MIDI-Tools.js",
+      "id": "ObscurasMIDITools",
+      "name": "MIDI Tools",
+      "description": "Utilities For Making Midi Notes Into Functions",
+      "image": "extension-thumbs/MIDI-Tools.svg",
+      "by": [
+        {
+          "name": "ObscuraPH"
+        }
+      ]
+    }
+  ]
+}

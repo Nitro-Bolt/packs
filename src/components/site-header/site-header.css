@@ -1,0 +1,26 @@
+.site-header {
+  margin: -2rem 0 1.5rem;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(180deg, #ff6a3d 0%, #ff5726 100%);
+  border-bottom: 2px solid #db4b21;
+  color: #fff;
+}
+.site-header h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+.site-header p {
+  margin: 0.35rem 0 0;
+  color: #fff0eb;
+  font-size: 0.95rem;
+}
+:root[theme="dark"] .site-header p {
+  color: #ffddd2;
+}

@@ -1,0 +1,68 @@
+.pack-section {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--surface-border);
+  border-radius: 0.75rem;
+  background: var(--surface-card);
+}
+.pack-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.pack-heading h2,
+.pack-heading p {
+  margin: 0;
+}
+.pack-heading p {
+  margin-top: 0.3rem;
+  color: var(--text-muted);
+}
+.pack-heading span {
+  flex-shrink: 0;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  background: var(--looks-transparent);
+  color: var(--looks-secondary);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.pack-link-row {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0 0.75rem;
+}
+.pack-link-row input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--surface-border);
+  border-radius: 0.4rem;
+  color: var(--text-primary);
+  background: var(--page-bg);
+  font: inherit;
+}
+.pack-link-row button {
+  border: 0;
+  border-radius: 0.4rem;
+  padding: 0.65rem 0.9rem;
+  background: var(--looks-secondary);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.pack-section a {
+  color: var(--looks-secondary);
+  font-weight: 600;
+}
+@media (max-width: 560px) {
+  .pack-heading,
+  .pack-link-row {
+    flex-direction: column;
+  }
+  .pack-link-row input,
+  .pack-link-row button {
+    width: 100%;
+  }
+}

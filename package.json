@@ -1,0 +1,35 @@
+{
+  "name": "packs",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.33.0",
+  "description": "NitroBolt Extension Packs",
+  "scripts": {
+    "build:packs": "node scripts/build-packs.cjs",
+    "start": "pnpm build:packs && rspack serve --config rspack.config.cjs",
+    "build": "pnpm build:packs && rspack build --config rspack.config.cjs && node scripts/copy-static-subfolders.cjs",
+    "preview": "rspack serve --config rspack.config.cjs --mode production",
+    "format": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitro-Bolt/packs.git"
+  },
+  "author": "Cubester",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/Nitro-Bolt/packs/issues"
+  },
+  "homepage": "https://github.com/Nitro-Bolt/packs#readme",
+  "dependencies": {
+    "preact": "^10.28.4"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.7.7",
+    "@rspack/core": "^1.7.7",
+    "@rspack/dev-server": "^1.2.1",
+    "prettier": "^3.8.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": []
+  }
+}
