@@ -4,7 +4,7 @@ const METADATA_URL = `${SOURCE}extensions/extensions.json`;
 const creator = {
   name: "ddededodediamante",
   description: "Extensions by ddededodediamante for TurboWarp, PenguinMod, and NitroBolt.",
-  upstream: "https://github.com/ddededodediamante/dde-ext-gallery",
+  upstream: SOURCE,
 };
 
 const convertGallery = (extensions) => ({
