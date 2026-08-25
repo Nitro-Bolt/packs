@@ -30,7 +30,7 @@ const findExtensionId = (script, fileName) => {
 const convertLegacy = async (data, loadScript) => {
   const extensions = [];
   for (const [galleryId, extension] of Object.entries(data.extensions)) {
-    if (galleryId === "Example") continue;
+    if (galleryId === "Example" || extension.isDeprecated === true) continue;
     const script = await loadScript(extension.url);
     extensions.push({
       slug: `extension-code/${extension.url}`,

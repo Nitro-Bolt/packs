@@ -33,35 +33,11 @@
       ]
     },
     {
-      "slug": "extension-code/Scratch-Utilities.js",
-      "id": "SPscratchUtilities",
-      "name": "Scratch Utilities",
-      "description": "Blocks for fetching Scratch statistics and assets, inspired by NexusKitten's S-Grab",
-      "image": "extension-thumbs/Scratch-Utilities.svg",
-      "by": [
-        {
-          "name": "SharkPool"
-        }
-      ]
-    },
-    {
       "slug": "extension-code/Tune-Shark-V3.js",
       "id": "SPtuneShark3",
       "name": "Tune Shark V3",
       "description": "Advanced Audio Engine with complex Sound Control, Audio Effects and more",
       "image": "extension-thumbs/Tune-Shark-V3.svg",
-      "by": [
-        {
-          "name": "SharkPool"
-        }
-      ]
-    },
-    {
-      "slug": "extension-code/Tune-Shark.js",
-      "id": "SPtuneShark",
-      "name": "Tune Shark",
-      "description": "Outdated Sound Engine for playing sounds. Please use Tune Shark V3",
-      "image": "extension-thumbs/Tune-Shark.svg",
       "by": [
         {
           "name": "SharkPool"
@@ -89,21 +65,6 @@
       "by": [
         {
           "name": "SharkPool"
-        }
-      ]
-    },
-    {
-      "slug": "extension-code/Geometry-Dash-API.js",
-      "id": "GDapiSP",
-      "name": "Geometry Dash API",
-      "description": "Fetch statistics and information from Geometry Dash. Deprecated, expect incorrect values.",
-      "image": "extension-thumbs/Geometry-Dash-API.svg",
-      "by": [
-        {
-          "name": "SharkPool"
-        },
-        {
-          "name": "thank you RobTopGames and GD Colon"
         }
       ]
     },
@@ -156,18 +117,6 @@
       ]
     },
     {
-      "slug": "extension-code/Better-Input.js",
-      "id": "BetterInputSP",
-      "name": "Better Input",
-      "description": "Expansion of the 'Ask and Wait' Block. Deprecated, please use Popup-Phoenix",
-      "image": "extension-thumbs/Better-Input.svg",
-      "by": [
-        {
-          "name": "SharkPool"
-        }
-      ]
-    },
-    {
       "slug": "extension-code/Camera-Sensing-Plus.js",
       "id": "CameraSensingPlusSP",
       "name": "Camera Sensing Plus",
@@ -185,18 +134,6 @@
       "name": "Particle Engine",
       "description": "Create customizable and powerful Particle Engines with NO Clones",
       "image": "extension-thumbs/Particle-Engine.svg",
-      "by": [
-        {
-          "name": "SharkPool"
-        }
-      ]
-    },
-    {
-      "slug": "extension-code/Particle-Tools.js",
-      "id": "ParticleToolsSP",
-      "name": "Particle Tools",
-      "description": "Tools that make creating Particle Systems easy",
-      "image": "extension-thumbs/Particle-Tools.svg",
       "by": [
         {
           "name": "SharkPool"
@@ -585,18 +522,6 @@
       ]
     },
     {
-      "slug": "extension-code/Money-Utilities.js",
-      "id": "SPmoney",
-      "name": "Money Utilities",
-      "description": "Convert Currencies and get Currency Information",
-      "image": "extension-thumbs/Money-Utilities.svg",
-      "by": [
-        {
-          "name": "SharkPool"
-        }
-      ]
-    },
-    {
       "slug": "extension-code/Display-Text-V2.js",
       "id": "SPdisplayTextV2",
       "name": "Display Text",
@@ -749,18 +674,6 @@
       "name": "More Operators",
       "description": "New Powerful Operator Blocks",
       "image": "extension-thumbs/More-Operators.svg",
-      "by": [
-        {
-          "name": "SharkPool"
-        }
-      ]
-    },
-    {
-      "slug": "extension-code/Captchas.js",
-      "id": "SPcaptcha",
-      "name": "Captchas",
-      "description": "Simple Client-Based Captchas, this does not promise 100% security",
-      "image": "extension-thumbs/Captchas.svg",
       "by": [
         {
           "name": "SharkPool"
