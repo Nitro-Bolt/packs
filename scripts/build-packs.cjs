@@ -4,6 +4,7 @@ const path = require("path");
 const rootDir = path.resolve(__dirname, "..");
 const packsDir = path.resolve(rootDir, "packs");
 const generatedDir = path.resolve(rootDir, "src/generated");
+const externalPacksPath = path.resolve(packsDir, "external-packs.json");
 const readJSON = (filePath) => JSON.parse(fs.readFileSync(filePath, "utf8"));
 
 const validatePack = (pack, slug) => {
@@ -23,7 +24,21 @@ const validatePack = (pack, slug) => {
 };
 
 const main = async () => {
-  const index = [];
+  const externalPacks = readJSON(externalPacksPath);
+  const index = await Promise.all(
+    externalPacks.map(async (entry) => {
+      const response = await fetch(entry.packURL);
+      if (!response.ok) {
+        throw new Error(`${entry.slug}: pack returned HTTP ${response.status}`);
+      }
+      const pack = await response.json();
+      validatePack(pack, entry.slug);
+      return {
+        ...entry,
+        extensionCount: pack.extensions.length,
+      };
+    })
+  );
   const directories = fs
     .readdirSync(packsDir, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
@@ -52,6 +67,7 @@ const main = async () => {
       name: builder.creator.name,
       description: builder.creator.description || "",
       upstream: builder.creator.upstream || null,
+      packURL: null,
       extensionCount: pack.extensions.length,
     });
     console.log(
@@ -60,6 +76,7 @@ const main = async () => {
   }
 
   fs.mkdirSync(generatedDir, { recursive: true });
+  index.sort((a, b) => a.name.localeCompare(b.name));
   fs.writeFileSync(
     path.resolve(generatedDir, "packs.json"),
     `${JSON.stringify(index, null, 2)}\n`

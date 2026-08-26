@@ -1,9 +1,17 @@
 import { useState } from "preact/hooks";
 import "./pack-section.css";
 
-const PackSection = ({ name, description, extensionCount, slug, upstream }) => {
+const PackSection = ({
+  name,
+  description,
+  extensionCount,
+  slug,
+  upstream,
+  packURL: externalPackURL,
+}) => {
   const [copied, setCopied] = useState(false);
-  const packURL = new URL(`${slug}/pack.json`, document.baseURI).href;
+  const packURL =
+    externalPackURL || new URL(`${slug}/pack.json`, document.baseURI).href;
   const copyURL = async () => {
     try {
       await navigator.clipboard.writeText(packURL);

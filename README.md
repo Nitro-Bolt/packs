@@ -10,3 +10,7 @@ Each creator has a directory in `packs/` containing:
 
 Run `pnpm build:packs` to refresh every generated pack and the website index.
 Run `pnpm start` to build the packs and start the local site.
+
+Galleries that publish and maintain their own compatible `pack.json` are listed
+in `packs/external-packs.json`. They appear on the website using their own pack
+URL and do not need a compatibility builder or generated pack in this repository.
