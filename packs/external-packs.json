@@ -5,5 +5,12 @@
     "description": "Extensions by ddededodediamante for TurboWarp, PenguinMod, and NitroBolt.",
     "upstream": "https://dde-ext-gallery.vercel.app/",
     "packURL": "https://dde-ext-gallery.vercel.app/extensions/pack.json"
+  },
+  {
+    "slug": "elmobear",
+    "name": "ElmoBear",
+    "description": "Extensions by ElmoBear.",
+    "upstream": "https://kylekart.github.io/ScratchExtensions/",
+    "packURL": "https://kylekart.github.io/ScratchExtensions/pack.json"
   }
 ]
